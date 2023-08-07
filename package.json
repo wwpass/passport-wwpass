@@ -1,0 +1,38 @@
+{
+  "name": "passport-wwpass",
+  "version": "1.0.0",
+  "description": "passport.js strategy for authenticating with WWPass (native protocol).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwpass/passport-wwpass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwpass/passport-wwpass/issues",
+    "email": "Eugene.Medvedev@wwpass.com"
+  },
+  "keywords": [
+    "wwpass",
+    "passport",
+    "authentication",
+    "auth"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint lib test"
+  },
+  "author": "Eugene Medvedev <Eugene.Medvedev@wwpass.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "@jridgewell/chai-as-promised-es5": "^7.1.1",
+    "chai": "^4.3.7",
+    "chai-passport-strategy": "^3.0.0",
+    "eslint": "^8.47.0",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.2"
+  }
+}
